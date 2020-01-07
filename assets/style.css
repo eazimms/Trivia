@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(30deg, #8b2583, #2fb4b4);
+  background-size: 400% 400%;
+  
+  animation: AnimationName 37s ease infinite;
+  
+  @keyframes AnimationName { 
+      0%{background-position:0% 99%}
+      50%{background-position:100% 2%}
+      100%{background-position:0% 99%}
+  }
+}
+
+.jumbotron {
+  margin-top: 10px; 
+  font-family:'Bitter', serif;
+}
+
+
+
+
+button {
+  margin: 10px; 
+  border: 1px solid; 
+  
+}
